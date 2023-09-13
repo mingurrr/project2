@@ -1,0 +1,121 @@
+.container{max-width: 1296px; width: 100%; margin: auto; background: rgb(255, 255, 255); 
+height: inherit; opacity: 1; }
+.display_flex{display: flex;}
+/* header */
+header{ height: 72px; background-color: rgb(255, 255, 255) ; }
+.logo {width: 100px; height: 100px; background: url(./images/kakao\ logo.png) no-repeat; position: relative; top: 20px;}
+nav {display: flex;  background: url(/images/kakao\ logo.png) no-repeat ; position: relative; top: 10px; left: 120px; }
+nav ul li{width: 150px; height: 50px; background: white;  display: inline-block;  text-align: center;  line-height: 50px; }
+.util{width: 200px; height: 100px; background: url(./images/header.png) no-repeat; position: relative; left: 310px; 
+top: 20px;}
+
+
+
+
+
+/* main */
+main{height: 4221px; background-color: rgb(255, 255, 255); }
+.wrap_tit{width: 1296px; height: 228px; background: rgb(255, 255, 255); }
+.main_tit{width: 600px; height: 220px; background: rgb(255, 255, 255) no-repeat; position: relative;   top: 75px;}
+.main_tit img{width: 515px; height: 170px; }
+.home{width: 1332px; height: 3811px ; position: relative ; right: 18px; top:96px }
+.section_home{width: 100%; height: 1200px; display: flex;}
+
+.wrap_item1{width: 666px; height: 1193px; background: rgb(255, 255, 255); display: flex; flex-direction: column; }
+.box1{width: 630px; height: 552px; background: white; border-radius: 30px; 
+    box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09); }
+.box2{width: 630px; height: 552px; background: rgb(255, 255, 255); border-radius: 30px; position: relative; top: 20px; left: 10px; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);}
+.box1:hover {box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09); position: relative;bottom: 5px;  cursor: pointer;}
+.box1 img{width: 630px;}
+.box2 img{width: 630px;}
+.box1 li:first-child{position: relative ; top: 20px;}
+.box1 li:last-child{position: relative ; top: 120px; }
+.box1 li:nth-child(3){position: relative; top: 90px;}
+.box1 li{ position: relative; top: 25px;}
+.box2 li:first-child{position: relative ; top: 20px;}
+.box2 li:last-child{position: relative ; top: 45px;}
+.box2 li{ position: relative; top: 50px;}
+.box2 li:nth-child(4){position: relative; top: 80px;}
+.box2:hover { cursor: pointer; position: relative; bottom: 5px;}
+
+
+
+.wrap_item2{width: 666px; height: 1193px; background: rgb(255, 255, 255); display: flex; flex-direction: column; position: relative ; left: 15px;}
+.wrap_cont1{width: 630px; height: 192px ; background: rgb(255, 255, 255); display: flex; justify-content: space-between; align-items: center; position: relative; top: 36px;}
+.wrap_cont2{width: 630px; height: 192px ; background: rgb(255, 255, 255); display: flex; justify-content: space-between; align-items: center; position: relative; top: 72px;}
+.cont{width: 297px; height: 192px; background:rgb(255, 255, 255);  border-radius: 30px; position: relative; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);  cursor: pointer;}
+.cont img{position: relative; left: 5px; top: 20px; width: 150px;}
+.cont11 img{width: 297px; }
+.cont li{display: flex; position: relative; top: 30px; left: 20px; font-weight: bold; }
+.cont li:nth-child(2){display: flex; position: relative; top: 30px; left: 20px; font-weight: bold;}
+.cont li:last-child{display: flex; position: relative; top: 40px; left: 20px; font-size: 13px; opacity: 0.8;}
+.cont1 img{width: 297px;}
+.cont1 li:first-child{position: relative ; top: 15px;}
+.cont1 li:last-child{position: relative ; top: 30px;}
+.cont1 li:nth-child(4){position: relative; top: 20px;}
+.cont1 li:nth-child(2){position: relative; top: 15px;}
+.cont1 li:nth-child(3){position: relative; top: 15px;}
+.cont:hover{position: relative;bottom: 5px;}
+.cont1:hover{position: relative;bottom: 5px;}
+
+
+
+.wrap_cont3{width: 630px; height: 363px; background: rgb(255, 255, 255); display: flex; position: relative; justify-content: space-between; top: 108px;}
+.cont1{width: 300px; height: 360px; background: rgb(255, 255, 255);  border-radius: 30px; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);  cursor: pointer;}
+
+
+.wrap_culture{width: 1296px; height: 540px; background: rgb(255, 255, 255);  margin: 0 auto; position: relative; }
+.culture {width: 1260px; height: 468px; background: rgb(255, 255, 255); border-radius: 30px; position: relative; top: 36px; margin: auto; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);}
+.culture img {width: 900px; margin-left:180px; margin-top: 23px; }
+
+.wrap_sns{width: 1296px; height: 116px; background: rgb(255, 255, 255); margin: 0 auto; position: relative; top: 15px;  }
+.sns{width: 1260px; height: 116px; background: rgb(255, 255, 255); border-radius: 30px; margin: auto; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09); }
+.sns img  {width:340px ; position: relative ; left: 900px; top: 22px;}
+.sns h2{position: relative ; bottom: 35px; font-weight: bold ; left: 50px;}
+
+.section_home2{width: 1332px; height: 871px; background: rgb(255, 255, 255); display: flex; position: relative; top: 50px;}
+.wrap_item{width: 666px; height: 1218px; background: rgb(255, 255, 255); display: flex; }
+.wwrap_item{width: 333px; height: 1218px;  }
+.cont2{width: 297px; height: 192px; background: rgb(255, 255, 255);  border-radius: 30px; margin: auto; margin-top: 30px; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);}
+.cont2 img {width: 150px; position: relative; left: 20px; top: 20px;}
+.cont2 li:last-child {position: relative ; top: 60px; left: 20px;} 
+.cont2 li {position: relative ; top: 40px; left: 20px;} 
+.cont22 li {position: relative; top: 40px;}
+.cont222 img {width: 260px; }
+.cont2:hover{position: relative;bottom: 5px;  cursor: pointer;}
+.cont3:hover{position: relative;bottom: 5px; cursor: pointer;}
+
+
+
+.cont3{width: 300px; height: 360px; background: rgb(255, 255, 255);  border-radius: 30px; margin: auto; margin-top: 30px; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);}
+.cont3 li:first-child{position: relative ; top: 20px; left: 20px; }
+.cont3 li {position: relative ; top: 30px;}
+.cont3 li:nth-child(4) {position: relative ; top: 30px;}
+.cont3 li:last-child img { width:296px ; height: 166px; position: relative ; top: 17px; border-radius: 15px;}
+
+.box1{width: 630px; height: 582px; background: rgb(255, 255, 255); border-radius: 30px; position: relative; margin-top: 30px; left: 9px;}
+.boxx li:last-child{position: relative ; top: 80px; border-radius: 17px;}
+.boxx li:nth-child(3){position: relative ; top: 50px;}
+.boxx li:nth-child(4){position: relative ; top: 60px;}
+.boxx {position: sticky;}
+
+
+.wrap_etc{width:1332px; height: 360px; display: flex; position: relative; top: 430px;}
+.item_etc{width: 630px; height: 360px; border-radius: 30px; position: relative ; left: 18px ; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);}
+.item_etc1{width: 630px; height: 360px;  position: relative ; left: 54px ; border-radius: 30px; box-shadow: 4px 12px 30px 6px rgba(0,0,0,.09);}
+.item_etc li:last-child img{width: 620px; height: 350px; position: relative ; left: 5px; top: 5px; border-radius: 30px;}
+.item_etc1 li:last-child img{width: 620px; height: 350px; position: relative ; left: 5px; top: 5px; border-radius: 30px;}
+
+.wrap_fooup{width: 1296px; height: 230px; background: rgb(255, 255, 255); margin: auto;}
+.link_collection{width: 230px; height: 55px; background-color: rgb(210, 210, 216); margin: auto; position: relative; top: 245%; text-align: center; line-height: 55px; border-radius: 50px;}
+.icon{width: 200px ; height: 200px; position: relative; top: 695px; left: 1250px;}
+/* footer */
+footer{height: 499px; background-color: rgb(255, 255, 255);}
+.section_service{display: flex; width: 1296px; height: 236px; margin-top: 36px;}
+.section_service li{ width: 138px; height: 50px; background: rgb(255, 255, 255); margin-left: 45px; color: gray;}
+.section_service li:hover {color: black;}
+.section_relation{width: 1296px; height: 264px; background: rgb(255, 255, 255); }
+.grpup_info{width: 1296px; height: 50px; background: rgb(255, 255, 255); position: relative; top: 170px;}
+.grpup_info li{ width: 110px; height: 30px ; display: inline-block; font-size: 1px; }
+.grpup_info li img{ width:180px ;position: relative ; bottom: 5px; left: -33px; }
+.txt_copyright{width: 1296px; height:30px ; position: relative ; top: 180px; font-size: 1px;}
